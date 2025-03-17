@@ -5,7 +5,7 @@ class User{
         this.age=age;
     }
     greet(){
-        console.log(`Name ${name} Age {age}`);
+        console.log(`Name ${this.name} Age ${this.age}`);
     }
 }
 const user=new User("Vikram",23)
