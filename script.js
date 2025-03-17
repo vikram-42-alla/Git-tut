@@ -8,3 +8,5 @@ class User{
         console.log(`Name ${name} Age {age}`);
     }
 }
+const user=new User("Vikram",23)
+user.greet()
